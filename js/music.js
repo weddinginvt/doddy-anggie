@@ -1,3 +1,8 @@
+$(document).ready(function () {
+    document.getElementById("btnCover").disabled = false;
+    document.getElementById("loCover").classList.add("d-none");
+});
+
 let source = "./music/I-Knew-I-Loved-You-Savage-Garden-Piano-Cover-by-Riyandi-Kusuma.mp3";
 let audio = new Audio();
 

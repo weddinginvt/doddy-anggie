@@ -67,9 +67,13 @@
                                 Doddi & Anggie
                             </p>
                             <p class="text-white">Undangan Spesial Untuk :</p>
-                            <button class="btn btn-secondary btn-cover mt-4" onclick="closeCover()"><i
-                                    class="fas fa-envelope-open"></i> Buka
+                            <button class="btn btn-secondary btn-cover mt-4" onclick="closeCover()" id="btnCover"
+                                disabled><i class="fas fa-envelope-open"></i> Buka
                                 Undangan</button>
+                            <br>
+                            <div class="spinner-border text-light mt-3" role="status" id="loCover">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
                         </div>
                     </div>
                 </div>
