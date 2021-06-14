@@ -1,0 +1,255 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #E4CFCA;
+}
+
+footer{
+    background-color: #333333;
+}
+
+
+section{
+    padding-top: 5rem;
+}
+
+.ceritakita{
+    background-color: #dac4bd;
+}
+
+.acara{
+    background-color: #dac4bd;
+}
+
+.protocol{
+    background-color: #fff;
+    padding-top: 0px;
+}
+
+.semi-circle{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    background-color: #dac4bd;
+    top:0px;
+}
+
+.bg-semi-circle{
+    background-color:#dbc4bf;
+}
+
+.bg-kuning{
+    background-color: #EDB16D;
+}
+
+.bg-akad{
+    background-color: #fcddda;
+}
+
+.bg-resepsi{
+    background-color: #fef7ed;
+}
+
+.bg-acara{
+    background-color: #E4CFCA;
+}
+
+.bg-cover-awal{
+    background-image: url('https://galipatstory.com/wp-content/uploads/2021/01/d142a56f2986e2955e7f983c5af7d843.jpg');
+    background-size:cover;
+    position: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999999999999999;
+}
+
+.bg-filter-cover{
+    background-color: rgba(0, 0, 0, 0.50);
+    z-index: 999999999999999999999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.hr-syukuran{
+    border: 2px solid #5F3E24;
+    width: 100%;
+    
+}
+
+.center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hr-akad{
+    border: 2px solid #5F3E24;
+    width: 100%;
+}
+
+.hr-resepsi{
+    border: 2px solid #5F3E24;
+    width: 100%;
+}
+
+.gmap{
+    background-color: #5F3E24;
+    border-radius: 16px;
+}
+
+.text-cover{
+    color: #5F3E24;
+    font-family: 'Crete Round', serif;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.261);
+}
+
+.text-footer{
+    color: #fff !important;
+    font-family: 'Salsa', cursive;
+}
+
+.text-body{
+    color: #5F3E24 !important;
+    font-family: 'Salsa', cursive;
+}
+
+.text-cover-awal{
+    font-family: 'Dancing Script', cursive;
+}
+
+.text-protocol{
+    font-family: 'Medula One', cursive;
+}
+
+.text-heading-mempelai{
+    color: #5F3E24;
+    font-family: 'Sacramento', cursive;
+}
+
+.text-nama-mempelai{
+    font-family: 'Great Vibes', cursive;
+    color: #5F3E24;
+}
+
+.text-brown{
+    color: #5F3E24;
+}
+
+.card-syukuran{
+    background-color: #dbc4bf;
+    border-radius: 16px;
+}
+
+.card-akad{
+    background-color: #dbc4bf;
+    border-radius: 16px;
+}
+
+.card-resepsi{
+    background-color: #dbc4bf;
+    border-radius: 16px;
+}
+
+.card-brown{
+    background-color:  #5F3E24;
+    border-radius: 16px;
+}
+
+.card-brown p{
+    color: #fff !important;
+}
+
+.btn-outline-brown{
+    transition: 600ms;
+    border: 2px solid #5F3E24;
+    color: #5F3E24;
+}
+
+.btn-brown{
+    transition: 600ms;
+    background-color: #5F3E24;
+    color: #fff;
+}
+
+.btn-outline-brown:hover{
+    background-color: #5F3E24;
+    color: #fff;
+}
+
+.btn-brown:hover{
+    background-color: #49301d;
+    color: #fff;
+}
+
+.btn-cover{
+    border:2px solid #fff;
+}
+
+.btn-cover:hover{
+     border:2px solid #fff;
+}
+
+.btn-up {
+  z-index: 9999;
+  position: fixed;
+  right: 24px;
+  bottom: 70px;
+}
+
+.btn-music{
+  z-index: 9999;
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  opacity: 0.5;
+  transition: 600ms;
+}
+
+.btn-music:hover{
+    opacity: 1;
+}
+
+.box-music{
+    max-width: 150px;
+}
+
+.v-syukuran{
+    background-image: url('../assets/ebcb13bb58be75a9ada6a84e46796c0b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.v-akad{
+    background-image: url('../assets/32a5ea50cb42bcecb82aaba8aac67353.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.v-resepsi{
+    background-image: url('../assets/7dad5ec9180698ac896d5593e97b3b8b.jpg');
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: bottom;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.bg-modal{
+    background-image: url('../assets/bg-modal.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}

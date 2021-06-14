@@ -1,0 +1,15 @@
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 350px;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 350px;
+    width: 100%;
+    border-radius: 16px;
+}

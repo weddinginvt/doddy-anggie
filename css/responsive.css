@@ -1,0 +1,34 @@
+/* Responsive */
+
+
+@media screen and (max-width: 800px) {
+
+.btn-up {
+    right: 16px;
+    bottom: 64px;
+  }
+
+.btn-music{
+  right: 16px;
+  bottom: 16px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+
+
+}
+
+@media screen and (max-width: 1199px) {
+  
+
+}
+
+@media screen and (max-width: 992px) {
+  
+
+}
+
