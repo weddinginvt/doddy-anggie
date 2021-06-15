@@ -34,9 +34,10 @@ async function getDataPesan() {
 
     onGetPesan((querySnapshot) => {
         userListUI.innerHTML = '';
-        querySnapshot.forEach(doc => {
-            userListUI.innerHTML +=
-                `
+        if (querySnapshot.size > 0) {
+            querySnapshot.forEach(doc => {
+                userListUI.innerHTML +=
+                    `
                 <li class="chat-inverted">
             <div class="chat-badge"><i class="fas fa-user"></i></div>
             <div class="chat-panel">
@@ -54,7 +55,17 @@ async function getDataPesan() {
             </div>
         </li>
         `;
-        });
+            });
+        } else {
+            userListUI.innerHTML =
+                `
+                <div class="text-center text-body">
+                    <h1 class="display-2"><i class="far fa-comments"></i></h1>
+                    <p>Belum ada ucapan.</p>
+                </div>
+            `;
+        }
+
     });
 
 }
