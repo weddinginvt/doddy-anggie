@@ -14,7 +14,7 @@ function rekeningWanita() {
     document.execCommand("copy");
 
     /* Alert the copied text */
-    alert("Copied the text: " + copyText.value);
+    validasi('Berhasil di Salin', 'success');
 }
 
 function rekeningPria() {
@@ -29,7 +29,7 @@ function rekeningPria() {
     document.execCommand("copy");
 
     /* Alert the copied text */
-    alert("Copied the text: " + copyText.value);
+    validasi('Berhasil di Salin', 'success');
 }
 
 function alamatMempelai() {
@@ -44,7 +44,7 @@ function alamatMempelai() {
     document.execCommand("copy");
 
     /* Alert the copied text */
-    alert("Copied the text: " + copyText.value);
+    validasi('Berhasil di Salin', 'success');
 }
 
 function rsvp() {
