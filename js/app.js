@@ -78,10 +78,10 @@ async function addData() {
     lodingStatus('on');
 
     if (name.value == '') {
-        alert('Isikan dulu nama!');
+        validasi('Isikan dulu nama !', 'warning');
         lodingStatus('off');
     } else if (message.value == '') {
-        alert('Isikan dulu ucapan!');
+        validasi('Isikan dulu ucapan !', 'warning');
         lodingStatus('off');
     } else {
 
@@ -117,4 +117,13 @@ function chatClear() {
 
     name.value = "";
     message.value = "";
+}
+
+function validasi(pesan, type) {
+    Swal.fire({
+        icon: type,
+        title: pesan,
+        confirmButtonText: 'Oke',
+        confirmButtonColor: '#5F3E24',
+    })
 }
